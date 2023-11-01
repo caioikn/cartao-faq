@@ -20,7 +20,7 @@ window.addEventListener('resize', () => {
         imagem.src = '../images/illustration-woman-online-desktop.svg';
         detalhe.src = '../images/bg-pattern-desktop.svg';
     } else {
-        imagem.src = 'images/illustration-woman-online-mobile.svg';
+        imagem.src = '../images/illustration-woman-online-mobile.svg';
         detalhe.src = '../images/bg-pattern-mobile.svg';
     }
 });
