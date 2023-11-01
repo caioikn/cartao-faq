@@ -17,10 +17,10 @@ window.addEventListener('resize', () => {
     const largura = window.innerWidth;
 
     if(largura >= 1440) {
-        imagem.src = '../images/illustration-woman-online-desktop.svg';
-        detalhe.src = '../images/bg-pattern-desktop.svg';
+        imagem.src = './images/illustration-woman-online-desktop.svg';
+        detalhe.src = './images/bg-pattern-desktop.svg';
     } else {
-        imagem.src = '../images/illustration-woman-online-mobile.svg';
-        detalhe.src = '../images/bg-pattern-mobile.svg';
+        imagem.src = './images/illustration-woman-online-mobile.svg';
+        detalhe.src = './images/bg-pattern-mobile.svg';
     }
 });
