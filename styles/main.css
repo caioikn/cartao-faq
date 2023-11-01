@@ -159,8 +159,8 @@ img {
 
     .box {
         display: block;
-        position: fixed;
-        top: 42%;
+        position: absolute;
+        top: 45%;
         left: 21%;
         z-index: 3;
     }
